@@ -1,13 +1,57 @@
-Dưới đây là mã HTML cho file `index.html` với chỉ phần "Kết nối với tôi":
-
-```
 <!DOCTYPE html>
 <html lang="vi">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kết nối với tôi</title>
-  <link rel="stylesheet" href="style.css">
+  <style>
+    section {
+      background-color: #f7f7f7;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out, background-color 0.5s ease-in-out;
+    }
+
+    section:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+      background-color: #337ab7;
+    }
+
+    h2 {
+      color: #333;
+      transition: color 0.5s ease-in-out;
+    }
+
+    h2:hover {
+      color: #337ab7;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      padding: 10px;
+      border-bottom: 1px solid #ccc;
+    }
+
+    li:last-child {
+      border-bottom: none;
+    }
+
+    a {
+      text-decoration: none;
+      color: #337ab7;
+    }
+
+    a:hover {
+      color: #23527c;
+    }
+  </style>
 </head>
 <body>
   <main>
@@ -23,4 +67,3 @@ Dưới đây là mã HTML cho file `index.html` với chỉ phần "Kết nối
   </main>
 </body>
 </html>
-```
