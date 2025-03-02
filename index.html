@@ -1,71 +1,147 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kết nối với tôi</title>
-<style>
-body {
-background-color: #f0f0f0;
-}
-
-```section {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
-  cursor: pointer;
-}
-
-section:hover {
-  transform: translateY(-10px) scale(1.1);
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-}
-
-h2 {
-  color: #333;
-  font-weight: bold;
-  margin-top: 0;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-li {
-  padding: 10px;
-  border-bottom: 1px solid #ccc;
-}
-
-li:last-child {
-  border-bottom: none;
-}
-
-a {
-  text-decoration: none;
-  color: #337ab7;
-}
-
-a:hover {
-  color: #23527c;
-}
-```
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kết nối với tôi</title>
+  <style>
+    body {
+      background-color: #f0f0f0;
+    }
+    
+    section {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      transition: background-color 0.5s ease-in-out;
+      cursor: pointer;
+    }
+    
+    section:hover {
+      background-color: #337ab7;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    }
+    
+    h2 {
+      color: #333;
+      font-weight: bold;
+      margin-top: 0;
+      transition: color 0.5s ease-in-out;
+    }
+    
+    section:hover h2 {
+      color: #fff;
+    }
+    
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    li {
+      padding: 10px;
+      border-bottom: 1px solid #ccc;
+    }
+    
+    li:last-child {
+      border-bottom: none;
+    }
+    
+    a {
+      text-decoration: none;
+      color: #337ab7;
+      transition: color 0.5s ease-in-out;
+    }
+    
+    section:hover a {
+      color: #fff;
+    }
+    
+    /* Hiệu ứng chuyển màu */
+    section {
+      animation: changeColor 20s infinite;
+    }
+    
+    @keyframes changeColor {
+      0% {
+        background-color: #337ab7;
+      }
+      5% {
+        background-color: #ff69b4;
+      }
+      10% {
+        background-color: #ffe6cc;
+      }
+      15% {
+        background-color: #8bc34a;
+      }
+      20% {
+        background-color: #2196f3;
+      }
+      25% {
+        background-color: #9c27b0;
+      }
+      30% {
+        background-color: #ff9800;
+      }
+      35% {
+        background-color: #4caf50;
+      }
+      40% {
+        background-color: #3f51b5;
+      }
+      45% {
+        background-color: #f44336;
+      }
+      50% {
+        background-color: #009688;
+      }
+      55% {
+        background-color: #e91e63;
+      }
+      60% {
+        background-color: #03a9f4;
+      }
+      65% {
+        background-color: #8bc34a;
+      }
+      70% {
+        background-color: #ff9800;
+      }
+      75% {
+        background-color: #4caf50;
+      }
+      80% {
+        background-color: #3f51b5;
+      }
+      85% {
+        background-color: #f44336;
+      }
+      90% {
+        background-color: #009688;
+      }
+      95% {
+        background-color: #e91e63;
+      }
+      100% {
+        background-color: #03a9f4;
+      }
+    }
+  </style>
 </head>
 <body>
-<main>
-<section>
-<h2>Kết nối với tôi</h2>
-<ul>
-<li><a href="https://www.facebook.com/tenfacebookcuaBan" target="_blank">Facebook</a></li>
-<li><a href="https://zalo.me/tenzalocuaBan" target="_blank">Zalo</a></li>
-<li><a href="https://www.tiktok.com/@tencuaban" target="_blank">Tiktok</a></li>
-<li><a href="https://www.youtube.com/channel/tenyoutubechannelcuaBan" target="_blank">YouTube</a></li>
-</ul>
-</section>
-</main>
+  <main>
+    <section>
+      <h2>Kết nối với tôi</h2>
+      <ul>
+        <li><a href="⁦https://www.facebook.com/tenfacebookcuaBan⁩" target="_blank">Facebook</a></li>
+        <li><a href="⁦https://zalo.me/tenzalocuaBan⁩" target="_blank">Zalo</a></li>
+        <li><a href="⁦https://www.tiktok.com/@tencuaban⁩" target="_blank">Tiktok</a></li>
+        <li><a href="⁦https://www.youtube.com/channel/tenyoutubechannelcuaBan⁩" target="_blank">YouTube</a></li>
+      </ul>
+    </section>
+  </main>
 </body>
 </html>
